@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZenQuotesApp</string>
+    <string name="error_message">Error al cargar las citas</string>
+    <string name="loading_message">Cargando...</string>
+</resources>

@@ -1,0 +1,27 @@
+# Ejecuta en la raíz de tu proyecto Android
+echo "# Android
+.gradle
+/build
+/captures
+/.idea
+*.iml
+local.properties
+*.keystore
+*.jks
+
+# API Keys y configuraciones sensibles
+app/src/main/java/com/example/zenquotesapp/utils/Constants.java
+app/src/main/java/com/example/zenquotesapp/utils/ApiConfig.java
+app/src/main/res/values/secrets.xml
+config.properties
+.env
+*.env
+
+# Archivos de desarrollo
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp" > .gitignore
